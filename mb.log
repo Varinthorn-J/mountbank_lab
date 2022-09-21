@@ -2,3 +2,5 @@
 {"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T16:36:55.188Z"}
 {"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T16:36:55.258Z"}
 {"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T16:36:55.325Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:49557 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T16:37:03.096Z"}
+{"level":"info","message":"[http:3000 profiles] ::1:49562 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T16:37:08.625Z"}
