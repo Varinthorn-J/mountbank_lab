@@ -1,7 +1,8 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:32:59.404Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:32:59.416Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:32:59.478Z"}
-{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:32:59.539Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:54129 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:33:06.291Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:54143 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:33:14.046Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-09-21T14:34:07.730Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:38:19.070Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:38:19.082Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:38:19.148Z"}
+{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:38:19.210Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65263 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:21.366Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65270 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:26.535Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65275 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:31.475Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-09-21T14:39:34.274Z"}

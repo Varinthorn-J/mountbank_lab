@@ -18,6 +18,10 @@
                                     "predicates": [ <% include profiles/success/success_predicates_audit_log.ejs %> ],
                                     "responses": [ <% include profiles/success/success_response_audit_log.ejs %> ]
                             },
+                             {
+                                    "predicates": [ <% include profiles/fail/fail_predicates_audit_log.ejs %> ],
+                                    "responses": [ <% include profiles/fail/fail_response_audit_log.ejs %> ]
+                            },
                             {
                                     "responses": [ <% include proxy.ejs %> ]
                             }

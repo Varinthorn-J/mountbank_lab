@@ -1,4 +1,12 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:34:20.517Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:34:20.529Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:34:20.590Z"}
-{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:34:20.650Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:39:35.316Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:39:35.329Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:39:35.395Z"}
+{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:39:35.458Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65382 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:39:48.358Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65392 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:39:56.791Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65399 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:02.281Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65408 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:07.461Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65414 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:09.885Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65419 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:14.353Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65441 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:27.018Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65442 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:30.239Z"}
