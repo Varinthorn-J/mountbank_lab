@@ -1,12 +1,11 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:39:35.316Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:39:35.329Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:39:35.395Z"}
-{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:39:35.458Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65382 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:39:48.358Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65392 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:39:56.791Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65399 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:02.281Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65408 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:07.461Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65414 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:09.885Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65419 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:14.353Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65441 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:27.018Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65442 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:40:30.239Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:54:25.601Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:54:25.591Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:54:25.667Z"}
+{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:54:25.733Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50289 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:54:28.978Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50291 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:54:33.564Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50293 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:54:34.548Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50304 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:54:42.308Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50336 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:55:10.858Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50344 => POST /customer/v1/profiles/create","timestamp":"2022-09-21T14:55:15.308Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50376 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:55:37.208Z"}

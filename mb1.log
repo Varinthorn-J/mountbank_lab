@@ -1,8 +1,10 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:38:19.070Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:38:19.082Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:38:19.148Z"}
-{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:38:19.210Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65263 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:21.366Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65270 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:26.535Z"}
-{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:65275 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:38:31.475Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-09-21T14:39:34.274Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:53:47.344Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:53:47.355Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:53:47.427Z"}
+{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:53:47.491Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50214 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:53:49.312Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50216 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:53:50.438Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50219 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:53:51.081Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50235 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:54:02.443Z"}
+{"level":"info","message":"[http:3000 profiles] ::ffff:127.0.0.1:50249 => POST /tax-invoice/v1/auditlogs","timestamp":"2022-09-21T14:54:11.458Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-09-21T14:54:24.779Z"}
