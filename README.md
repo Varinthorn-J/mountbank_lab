@@ -4,7 +4,8 @@
 # set up
 1. install: npm install -g mountebank
 2. run: mb —configfile imposters.ejs —allowInjection
-3. Postman
+# Example Test
+1. Postman
     EX: (Endpoint api)
         Post http://localhost:3000/customer/v1/profiles/create
         Body :
