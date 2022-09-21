@@ -1,4 +1,4 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T10:12:12.899Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T10:12:12.913Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T10:12:12.973Z"}
-{"level":"info","message":"[http:6969 profiles] Open for business...","timestamp":"2022-09-21T10:12:13.034Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-09-21T14:34:20.517Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-09-21T14:34:20.529Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-09-21T14:34:20.590Z"}
+{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-09-21T14:34:20.650Z"}

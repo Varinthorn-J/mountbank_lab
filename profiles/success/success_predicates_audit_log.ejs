@@ -1,0 +1,24 @@
+{
+    "and":[
+       {
+            "equals":{
+                "path":"/tax-invoice/v1/auditlogs",
+                "method":"POST"
+            }
+       },
+       {
+          "matches":{
+             "body":{
+                    "userId":"th14000001",
+                    "userFullName":"Beverly Beck Test",
+                    "adGroup":["GG-TH-FFTIWeb-Admin"],
+                    "event":"Login",
+                    "datetime": "2022-10-07T21:00:58.810915165", 
+                    "activityStatus":"Success",
+                    "ip":"192.168.1.16",
+                    "actionWeb":"FFTI"
+             }
+          }
+       }
+    ]
+ }
