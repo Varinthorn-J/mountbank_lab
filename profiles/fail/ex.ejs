@@ -1,0 +1,354 @@
+{
+    "port": 8080,
+    "protocol": "http",
+    "stubs": [
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40001"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "Insufficient Points",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40001_insufficient_points"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40003"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "traceId": "1gjm9iqk6.b946",
+                            "error": "Points must not contains decimal places.",
+                            "data": {
+                                "code": "40003_points_must_not_contains_decimal_places"
+                            },
+                            "type": "kobp"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40004"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "traceId": "1gjm812pr.6d44",
+                            "error": "Points exceeding system maximum limit.",
+                            "data": {
+                                "code": "40004_points_exceed_maximum"
+                            },
+                            "type": "kobp"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40005"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "Transaction for void execution not found.",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40005_transaction_not_found"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40006"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "Transaction is already voided.",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40006_already_void"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40007"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "traceId": "1gjm83bf4.dceb",
+                            "error": "Campaign is not found.",
+                            "data": {
+                                "code": "40007_campaign_not_found"
+                            },
+                            "type": "kobp"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40008"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "The number of points is less than the campaign limit.",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40008_points_less_than_minimum"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40009"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "The number of points is greater than the campaign limit.",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40009_points_greater_than_maximum"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40010"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "The number of transactions exceeds the campaign limit.",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40010_exceed_transaction_quota"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "equals": {
+                        "method": "POST",
+                        "path": "/mock/onesiam",
+                        "body": {
+                            "points": 1,
+                            "partnerTransactionRef": "fortest1",
+                            "campaignCode": "40011"
+                        }
+                    }
+                }
+            ],
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 409,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false,
+                            "error": "The number of accumulated points exceeds the campaign limit. The remaining points are 100",
+                            "traceId": "1giesf862.ff2d",
+                            "data": {
+                                "code": "40011_exceed_accumulate_point_quota"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "responses": [
+                {
+                    "is": {
+                        "statusCode": 404,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "success": false
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

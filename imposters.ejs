@@ -23,6 +23,10 @@
                                     "responses": [ <% include profiles/fail/fail_response_audit_log.ejs %> ]
                             },
                             {
+                                    "predicates": [ <% include profiles/fail/one.ejs %> ],
+                                    "responses": [ <% include profiles/fail/one_response.ejs %> ]
+                            },
+                            {
                                     "responses": [ <% include proxy.ejs %> ]
                             }
                     ]
