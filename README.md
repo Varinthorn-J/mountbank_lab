@@ -8,3 +8,6 @@
 
 # medium
 1. https://s6135512053.medium.com/mock-service-by-mountebank-b854a6de8528
+
+# npm error
+https://stackoverflow.com/questions/55938030/error-eacces-permission-denied-mkdir-when-installing-sth-with-npm
