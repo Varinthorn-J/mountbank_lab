@@ -6,6 +6,8 @@
 2. install: npm install -g mountebank
 3. run: mb --configfile imposters.ejs --allowInjection
 4. run : mb --configfile ex.ejs
+5. mb start --configfile imposters.ejs --allowInjection
+
 
 - port 3000
 
