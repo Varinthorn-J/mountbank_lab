@@ -1,6 +1,7 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2022-12-19T14:51:10.273Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.7.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-12-19T14:51:10.284Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-12-19T14:51:10.343Z"}
-{"level":"info","message":"[http:3000 profiles] Open for business...","timestamp":"2022-12-19T14:51:10.410Z"}
-{"level":"info","message":"[http:3000 profiles] ::1:54845 => POST /partners-api/:partnerId/v1/customers/:customerId","timestamp":"2022-12-19T14:51:12.885Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-12-19T15:24:24.978Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.8.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2023-04-05T16:08:34.911Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2023-04-05T16:08:35.051Z"}
+{"level":"info","message":"[http:8080] Open for business...","timestamp":"2023-04-05T16:08:35.076Z"}
+{"level":"info","message":"[http:8080] ::1:62265 => POST /mock/onesiam","timestamp":"2023-04-05T16:09:31.603Z"}
+{"level":"info","message":"[http:8080] ::1:62267 => POST /mock/onesiam","timestamp":"2023-04-05T16:09:41.710Z"}
+{"level":"info","message":"[http:8080] ::1:62275 => POST /mock/onesiam","timestamp":"2023-04-05T16:09:53.761Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2023-04-05T16:10:00.674Z"}

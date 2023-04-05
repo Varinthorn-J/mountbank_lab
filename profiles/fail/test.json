@@ -1,0 +1,39 @@
+{
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "and": [
+            {
+              "equals": {
+                "path": "/partners-api/:partnerId/v1/customers/:customerId",
+                "method": "POST"
+              }
+            },
+            {
+              "matches": {
+                "body": {
+                  "action": "earn",
+                  "method": "POST",
+                  "payload": {
+                    "customer_partner_id": "LT00000190",
+                    "amount": 1,
+                    "partner_campaign_code": "40401",
+                    "reference_id": "fortestX1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200
+          }
+        }
+      ]
+    }
+  ]
+}
