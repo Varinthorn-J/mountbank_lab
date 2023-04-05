@@ -1,0 +1,61 @@
+{
+    "port": 3001,
+    "protocol": "http",
+    "stubs": [
+      {
+        "predicates": [
+          {
+            "equals": {
+              "path": "/orders",
+              "method": "GET"
+            }
+          }
+        ],
+        "responses": [
+          {
+            "is": {
+              "statusCode": 200,
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "body": {
+                "orders": [
+                  {
+                    "id": 1,
+                    "customer": "John Smith",
+                    "items": [
+                      {
+                        "name": "T-Shirt",
+                        "quantity": 2
+                      },
+                      {
+                        "name": "Jeans",
+                        "quantity": 1
+                      }
+                    ],
+                    "total": 50.0
+                  },
+                  {
+                    "id": 2,
+                    "customer": "Jane Doe",
+                    "items": [
+                      {
+                        "name": "Sweater",
+                        "quantity": 1
+                      },
+                      {
+                        "name": "Pants",
+                        "quantity": 1
+                      }
+                    ],
+                    "total": 40.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

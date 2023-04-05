@@ -1,0 +1,15 @@
+<% var users = require('./mocks/users.ejs'); %>
+<% var orders = require('./mocks/orders.ejs'); %>
+
+[
+    {
+        "port": 3000,
+        "protocol": "http",
+        "stubs": <%= JSON.stringify(users) %>
+    },
+    {
+        "port": 3001,
+        "protocol": "http",
+        "stubs": <%= JSON.stringify(orders) %>
+    }
+]
