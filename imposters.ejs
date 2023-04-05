@@ -2,7 +2,7 @@
         
     "imposters": [
             {
-                    "port": "3000",
+                    "port": "8080",
                     "protocol": "http",
                     "name": "profiles",
                     "stubs": [
@@ -25,6 +25,9 @@
                             {
                                     "predicates": [ <% include profiles/fail/one.ejs %> ],
                                     "responses": [ <% include profiles/fail/one_response.ejs %> ]
+                            },
+                            {
+                                "responses": [<% include test.json %>]
                             },
                             {
                                     "responses": [ <% include proxy.ejs %> ]
