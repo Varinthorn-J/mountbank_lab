@@ -1,0 +1,42 @@
+{
+    "imposters": [
+        {
+            "protocol": "http",
+            "port": 8000,
+            "name": "Example Mock Server",
+            "stubs": [
+                {
+                    "predicates": [
+                        {
+                            "equals": {
+                                "path": "/example",
+                                "method": "GET",
+                                "headers": {
+                                    "accept": "application/json"
+                                }
+                            }
+                        }
+                    ],
+                    "responses": [
+                        {
+                            "is": {
+                                "statusCode": 200,
+                                "headers": {
+                                    "content-type": "application/json"
+                                },
+                                "body": {
+                                    "message": "Hello, world!"
+                                }
+                            }
+                        }
+                    ],
+                    "behaviors": [
+                        {
+                            "decorate": "(response, request) => { mg.log(`Received ${request.method} request to ${request.path}`); return response; }"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
