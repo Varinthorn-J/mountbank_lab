@@ -1,4 +1,6 @@
 {
+  "port": 2525,
+  "protocol": "http",
   "stubs": [
     {
       "predicates": [
@@ -30,7 +32,13 @@
       "responses": [
         {
           "is": {
-            "statusCode": 200
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "message": "Success"
+            }
           }
         }
       ]
