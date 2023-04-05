@@ -7,24 +7,24 @@
                     "name": "profiles",
                     "stubs": [
                             {
-                                    "predicates": [ <% include profiles/success/success_predicates.ejs %> ],
-                                    "responses": [ <% include profiles/success/success_response.ejs %> ]
+                                    "predicates": [ <% include profiles/success/request/success_predicates.ejs %> ],
+                                    "responses": [ <% include profiles/success/response/success_response.ejs %> ]
                             },
                             {
-                                    "predicates": [ <% include profiles/fail/fail_predicates.ejs %> ],
-                                    "responses": [ <% include profiles/fail/fail_response.ejs %> ]
+                                    "predicates": [ <% include profiles/fail/request/fail_predicates.ejs %> ],
+                                    "responses": [ <% include profiles/fail/response/fail_response.ejs %> ]
                             },
                             {
-                                    "predicates": [ <% include profiles/success/success_predicates_audit_log.ejs %> ],
-                                    "responses": [ <% include profiles/success/success_response_audit_log.ejs %> ]
+                                    "predicates": [ <% include profiles/success/request/success_predicates_audit_log.ejs %> ],
+                                    "responses": [ <% include profiles/success/response/success_response_audit_log.ejs %> ]
                             },
                              {
-                                    "predicates": [ <% include profiles/fail/fail_predicates_audit_log.ejs %> ],
-                                    "responses": [ <% include profiles/fail/fail_response_audit_log.ejs %> ]
+                                    "predicates": [ <% include profiles/fail/request/fail_predicates_audit_log.ejs %> ],
+                                    "responses": [ <% include profiles/fail/response/fail_response_audit_log.ejs %> ]
                             },
                             {
-                                    "predicates": [ <% include profiles/fail/one.ejs %> ],
-                                    "responses": [ <% include profiles/fail/one_response.ejs %> ]
+                                    "predicates": [ <% include profiles/fail/request/one.ejs %> ],
+                                    "responses": [ <% include profiles/fail/response/one_response.ejs %> ]
                             },
                             {
                                     "responses": [ <% include proxy.ejs %> ]
