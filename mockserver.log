@@ -1,7 +1,0 @@
-const fs = require('fs');
-
-function customLogger(level, message) {
-    const timestamp = new Date().toISOString();
-    const logMessage = `${timestamp} [${level}] ${message}\n`;
-    fs.appendFileSync('mockserver.log', logMessage);
-}

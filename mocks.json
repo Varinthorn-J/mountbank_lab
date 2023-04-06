@@ -29,10 +29,35 @@
                                 }
                             }
                         }
-                    ],
-                    "behaviors": [
+                    ]
+                },
+                {
+                    "predicates": [
                         {
-                            "decorate": "(response, request) => { mg.log(`Received ${request.method} request to ${request.path}`); return response; }"
+                            "equals": {
+                                "path": "/example",
+                                "method": "POST",
+                                "headers": {
+                                    "accept": "application/json"
+                                },
+                                "body": {
+                                    "username": "admin",
+                                    "password": "password"
+                                }
+                            }
+                        }
+                    ],
+                    "responses": [
+                        {
+                            "is": {
+                                "statusCode": 201,
+                                "headers": {
+                                    "content-type": "application/json"
+                                },
+                                "body": {
+                                    "message": "User created successfully"
+                                }
+                            }
                         }
                     ]
                 }
