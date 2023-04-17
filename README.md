@@ -16,3 +16,10 @@
 
 # npm error
 https://stackoverflow.com/questions/55938030/error-eacces-permission-denied-mkdir-when-installing-sth-with-npm
+
+
+nano ~/.bash_profile
+
+export PATH="/usr/local/bin:$PATH"
+
+source ~/.bash_profile
